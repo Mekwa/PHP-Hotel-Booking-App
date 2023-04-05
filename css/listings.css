@@ -1,0 +1,171 @@
+:root{
+  --white: #fff;
+  --light-white: #eee4e4;
+  --lighter: #F0F8FF;
+  --light: #B9D9EB;
+  --medium: #72A0C1;
+  --blue: #3c81b2;
+  --dark: #1F305E;
+  --darker: #0C2340;
+  --transparent-blue: #0c23407e;
+  --transparent-lightblue: #3c81b284;
+
+  --blue-btn: #4ba0fb;
+
+  --placeholder: #000000;
+  --charcoal: #777777;
+
+  --gold: #FFD700;
+  --light-gold: #fae676;
+  --background: #f7f2d1a4;
+  --background-two: #fffffcce;
+
+  --dark-shadow: 0 3px 0 #1F305E;
+  --light-shadow: 0 3px 0 #b9d9eb;
+  --light-shadowe: 2px 3px 3px #f8f8f8d9;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/682/658/382/5bd349bda537c-wallpaper-preview.jpg);
+  color: var(--darker);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0%;
+  margin-top: 2rem;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 700;
+  margin-top: 0%;
+}
+
+
+.right{
+  float: right;
+  margin-right: 12px;
+}
+
+button.log-out{
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  padding: 0.5rem;
+  box-shadow: var(--light-shadowe);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button.log-out:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+
+.container{
+  border-width: 2px;
+  border-style: solid;
+  border: var(--white);
+  padding: 20px;
+  margin: 40px;
+  border-radius: 2rem;
+  background-color: var(--white);
+  opacity: 85%;
+}
+
+.container:hover{
+  background-color: var(--white);
+  opacity: 100%;
+}
+
+.text-card{
+  padding-left: 2rem;
+  color: var(--dark);
+}
+
+.title{
+  font: 600;
+  font-size: 40px;
+}
+
+.totalCost{
+  color: var(--darker);
+  font-weight: 700;
+}
+
+img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1rem;
+  float: right;
+}
+
+.button{
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+  width: 10rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.button:hover{
+  opacity: 50%;
+}
+
+
+@media screen and (max-width: 1920px) {
+  body {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 1180px) {
+  body {   
+    width: 100%;
+    padding: 0;
+  }
+  img{
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 896px) {
+    h1{
+      padding: 2px;
+    }
+    body {   
+      width: 100%;
+      padding: 0;
+    }
+    img{
+      width: 100%;
+      padding: 0;
+    }
+  }
+  

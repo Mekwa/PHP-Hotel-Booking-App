@@ -1,0 +1,182 @@
+:root{
+    --white: #fff;
+    --light-white: #eee4e4;
+    --lighter: #F0F8FF;
+    --light: #B9D9EB;
+    --medium: #72A0C1;
+    --blue: #3c81b2;
+    --dark: #1F305E;
+    --darker: #0C2340;
+    --transparent-blue: #0c23407e;
+
+    --blue-btn: #4ba0fb;
+
+    --placeholder: #7a7a7ad1;
+    --charcoal: #121111;
+
+    --gold: #FFD700;
+    --light-gold: #fae676;
+    --background: #f7f2d1d0;
+
+    --dark-shadow: 0 3px 0 #1F305E;
+    --light-shadow: 0 3px 0 #b9d9eb;
+    --light-shadowe: 3px 3px 3px #f8f8f8d9;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(https://uhdwallpapers.org/uploads/cache/3028758832/lion-king-in-wild-africa_400x225-mm-90.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+      
+    
+}    
+
+.login-block{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4rem;
+}
+
+img{
+    
+    border-radius: 2rem;
+    height: 50%;
+    width: 30%;
+    border-style: inherit;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.booking-form{
+    padding-left: 40px;
+}
+
+h1{
+    font-stretch: expanded;
+    opacity: 90%;
+    font-size: 55px;
+    color: var(--darker);
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+h2{
+
+    margin-top: 0;
+    font-weight: 300;
+    font-size: large;
+    color: var(--darker);
+    padding-left: 2rem;
+}
+
+h3{
+    margin-top: 2rem;
+    font-weight: 300;
+    color: var(--darker);
+}
+
+h4{
+    font-weight: 200;
+    color: var(--dark);
+}
+
+.one{
+    border-color: var(--background);
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    padding: 2px;
+    box-shadow: var(--light-shadowe);
+}
+
+.one-email{
+    width: 320px;
+    border-color: var(--background);
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    padding: 2px;
+    box-shadow: var(--light-shadowe);
+    margin-top: 1rem;
+}
+
+.two{
+    border-color: var(--background);
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    padding: 2px;
+    box-shadow: var(--light-shadowe);
+}
+
+:placeholder-shown{
+    color: var(--placeholder);
+}
+
+input#checkin{
+    color: var(--placeholder);
+}
+
+input#checkout{
+    color: var(--placeholder);
+}
+
+.log-in{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 10rem;
+    background-color: var(--darker);
+    font-weight: 400;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+  }
+  
+  
+  @media screen and (max-width: 1180px) {
+    body {   
+      width: 100%;
+      padding: 0;
+    }
+    img{
+      width: 100%;
+      padding: 0;
+    }
+    .login-block{
+        background-color: var(--background);
+    }
+  }
+  
+  
+  @media screen and (max-width: 896px) {
+      h1{
+        padding: 2px;
+      }
+      body {   
+        width: 80%;
+        padding: 0;
+      }
+      .login-block{
+        background-color: var(--background);
+    }
+    }

@@ -1,0 +1,137 @@
+:root{
+    --white: #fff;
+    --light-white: #eee4e4;
+    --lighter: #F0F8FF;
+    --light: #B9D9EB;
+    --medium: #72A0C1;
+    --blue: #3c81b2;
+    --dark: #1F305E;
+    --darker: #0C2340;
+    --transparent-blue: #0c23407e;
+    --transparent-lightblue: #3c81b284;
+  
+    --brown-btn: rgba(42, 27, 27, 0.241);
+  
+    --placeholder: #000000;
+    --charcoal: #777777;
+  
+    --gold: #FFD700;
+    --light-gold: #fae676;
+    --background: #f7f2d1a4;
+    --background-two: #fffffcce;
+  
+    --dark-shadow: 0 3px 0 #1F305E;
+    --light-shadow: 0 3px 0 #b9d9eb;
+    --light-shadowe: 2px 3px 3px #f8f8f8d9;
+}
+  
+*{
+    font-family: 'Times New Roman', Times, serif;
+  
+   
+}
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/682/658/382/5bd349bda537c-wallpaper-preview.jpg);
+    color: var(--darker);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.total{
+    font-weight: 600;
+}
+
+.information{
+    border: 2px solid;
+    border-color: var(--white);
+    background-color: var(--white);
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+p{
+    margin: 0%;
+}
+
+button.log-out{
+    color: var(--brown);
+    background-color: var(--blue);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    float: right;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+  
+button.log-out:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+input.submit{
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    padding: 0.5rem;
+    box-shadow: var(--light-shadowe);
+    border-radius: 4px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+input.submit:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+body{
+    background-color: var(--transparent-lightblue);
+}
+
+
+@media screen and (max-width: 1920px) {
+    body {   
+      width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1180px) {
+    body {   
+      width: 80%;
+    }
+    img{
+      width: 80%;
+      padding: 0;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 896px) {
+      body {   
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+
+

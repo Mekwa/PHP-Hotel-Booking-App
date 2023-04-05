@@ -1,0 +1,77 @@
+:root{
+    --white: #fff;
+    --light-white: #eee4e4;
+    --lighter: #F0F8FF;
+    --light: #B9D9EB;
+    --medium: #72A0C1;
+    --blue: #3c81b2;
+    --dark: #1F305E;
+    --darker: #0C2340;
+    --transparent-blue: #0c23407e;
+    --transparent-lightblue: #96b3c89a;
+  
+    --blue-btn: #4ba0fb;
+  
+    --placeholder: #000000;
+    --charcoal: #777777;
+  
+    --gold: #FFD700;
+    --light-gold: #f7e897c6;
+    --background: #f7f2d1a4;
+    --background-two: #fffffcce;
+  
+    --dark-shadow: 0 3px 0 #1F305E;
+    --light-shadow: 0 3px 0 #b9d9eb;
+    --light-shadowe: 2px 3px 3px #f8f8f8d9;
+}
+  
+*{
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/682/658/382/5bd349bda537c-wallpaper-preview.jpg);
+    color: var(--darker);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid var(--white);
+    background-color: var(--white);
+    width: fit-content;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-weight: 400;
+    margin: 15rem;
+}
+
+@media screen and (max-width: 1920px) {
+    body {   
+      width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1180px) {
+    body {   
+      width: 80%;
+      padding: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 896px) {
+      h1{
+        padding: 2px;
+      }
+      body {   
+        width: 80%;
+        padding: 0;
+      }
+    }

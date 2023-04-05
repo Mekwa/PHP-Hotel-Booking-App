@@ -1,0 +1,95 @@
+
+[
+    {
+        "id": 1,
+        "name": "White Pearl Resort",
+        "rate": 10270,
+        "features": [
+            "Scuba diving",
+            "Surfing",
+            "Kayaking",
+            "Whale watching",
+            "Star gazing",
+            "Turtle nesting excursions",
+            "Bar",
+            "Kids Activities",
+            "Beach Activities",
+            "Free Breakfast",
+            "Beach Volleyball"
+        ],
+        "location" : "Mozambique",
+        "image" : "https://cdn-images.go2africa.com/wp-content/uploads/2017/08/24095325/white-pearl-resort-8816-1920x768.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Zuri Zanzibar Hotel & Resort",
+        "rate": 7265,
+        "features": [
+            "Pool",
+            "Snorkelling",
+            "Day tours",
+            "Secure Parking",
+            "Spa",
+            "DVD Library",
+            "Beach Activities",
+            "Yoga"
+        ],
+        "location" : "Zanzibar, Tanzania",
+        "image" : "https://cdn-images.go2africa.com/wp-content/uploads/2019/07/25225020/Zuri-Zanzibar-1-Jacuzzi-Suite-exterior-1-1920x768.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Serengeti Sojourn",
+        "rate": 6197,
+        "features": [ 
+            "Hot Air Ballooning",
+            "Solar Power",
+            "Bush Dining",
+            "Library",
+            "Laundry service",
+            "Game Drives"
+        ],
+        "location" : "Serengeti, Tanzania",
+        "image" : "https://cdn-images.go2africa.com/wp-content/uploads/2018/10/19113942/Sergeti-Explorer-Camp_Deluxe-Tent-listing1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "The Cellars-Hohenort",
+        "rate": 2747,
+        "features": [
+            "Wi-Fi Free",
+            "Pool",
+            "Jacuzzi",
+            "Public internet Workstation",
+            "Wine Tasting",
+            "Spa",
+            "Private garden",
+            "Gym",
+            "Secure Parking",
+            "Bar"
+        ],
+        "location" : "Cape Town, Constantia Wine Valley, South Africa",
+        "image" : "https://cdn-images.go2africa.com/wp-content/uploads/2020/10/09154237/cellars-hohenort.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Taj Cape Town",
+        "rate": 2057,
+        "features": [
+            "Wi-Fi Free",
+            "Spa",
+            "Bar",
+            "Pool",
+            "Child Friendly",
+            "Kids Activities",
+            "Breakfast free",
+            "Public internet Workstation",
+            "Restaurant",
+            "Baggage storage",
+            "Currency Exchange",
+            "Dietary Menus"
+        ],
+        "location" : "1 Waal Straat, corner St Georges Mall, Cape Town City Centre, Cape Town, 8000, South Africa",
+        "image" : "https://www.outthere.travel/wp-content/uploads/2015/03/Taj-Cape-Town-South-Africa_Feat.jpg"
+    }
+]
